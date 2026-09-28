@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/checkspec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Check and reshape spec text streams with deterministic transforms.",
+  "bin": {
+    "checkspec": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/checkspec.git"
+  },
+  "homepage": "https://theworker02.github.io/checkspec/",
+  "keywords": [
+    "check",
+    "spec",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
